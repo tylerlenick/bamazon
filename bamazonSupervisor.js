@@ -55,7 +55,9 @@ function displaySuper() {
                 console.log("\n")
                 console.log(table.toString());
                 displaySuper();
-            })
+            });
+            break;
+            
             case "Create New Department":
             newDept();
             break;

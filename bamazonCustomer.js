@@ -58,7 +58,7 @@ function buyPrompt() {
         {
             type: 'input',
             name: 'amt',
-            message: 'How many would you like to buy?',
+            message: 'How many would you like to buy?'
         }
     ]).then(response => {
         let userItem = response.item;
